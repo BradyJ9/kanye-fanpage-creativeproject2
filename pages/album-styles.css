@@ -1,0 +1,33 @@
+#album_description {
+    font-size: 15px;
+    padding-right: 100px; 
+    padding-left: 25px;
+}
+
+.song_link {
+    font-size: 20px;
+    color: rgb(6, 6, 129);
+}
+
+.song_description {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.song_quote {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.ye-footer {
+    text-align: center;
+}
+
+.album-img {
+    padding-top: 10px; 
+    padding-left: 35px;
+}
