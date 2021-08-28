@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="ye-styles.css">
         <link rel="stylesheet" href="pages/album-styles.css">
+        <link rel="shortcut icon" href="data:;base64,iVBORw0KGgo=">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
@@ -48,6 +49,17 @@
                   <div style="display: flex; align-items: center;">
                     <img src="https://media1.giphy.com/media/7cfFJpQHGucD1Xb25l/giphy.gif" style="margin: 0 auto; margin-top: 30px;">
                   </div>
+                  <div id="gen-ye-quote">
+                    <hr style="border: 3px dashed black; margin: 10px 50px">
+                    <h2 style="text-align: center; margin-top: 20px">Generate Kanye Quote</h2>
+                    <h5 style="text-align: center;"><em>***Some quotes may be NSFW***</em></h5>
+                    <div id="api-button-div">
+                      <button id="api-button" style="justify-self: center;">Generate</button>
+                    </div>
+                    <div id="api-button-div">
+                      <p id="quote-p"></p>
+                    </div>
+                  </div>  
             </div>
             <div class="side-margin"></div>
           </div>
@@ -89,11 +101,12 @@
             </div>
           </div>
         </div>
+        <script text="type/javascript" src="ye.js"></script>
     </body>
 
     <footer>
         <div class="ye-footer" style="background-color: rgb(192, 192, 192)">
-            <p>Testing Footer</p>
+          <p><a href="https://github.com/BradyJ9/kanye-fanpage">Github Repo</a></p>
         </div>
     </footer>
 </html>
